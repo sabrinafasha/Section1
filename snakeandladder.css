@@ -1,0 +1,48 @@
+* {margin: 0; padding: 0; font-family: 'Rock Salt', cursive;}
+
+h2
+{
+  font-size: 35px;
+  text-align: center;
+  border-radius: 2px solid red;
+  height: 200px;
+}
+
+body
+{
+  background-color: #99ff33;
+  width: 510px;
+  margin:10px auto;
+  text-align: center;
+  padding: 10px;
+}
+
+div[id^="row-"] div
+{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  float: left;
+}
+
+div[id^="row-"] div:first-child {border-left: none;}
+div[id^="row-"] div:last-child {border-right: none;}
+div[id^="row-1"]
+div#row-1
+div[id^="row-"]
+
+
+div[id^="row-"]
+{
+  clear: float;
+  width: 603px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+div.board
+{
+  width: 608px;
+  overflow: hidden;
+  margin: 0 auto;
+}
